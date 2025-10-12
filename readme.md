@@ -3,7 +3,7 @@ Maps in EQEmu are used to do many things, we have different files that are respo
 # File Structure
 
 * maps/base/zoneshortname.map
-* **maps/nav/zoneshortname.nav**
+* maps/nav/zoneshortname.nav
 * maps/water/zoneshortname.wtr
 * maps/path/zoneshortname.path (Deprecated)
 
@@ -21,7 +21,7 @@ Maps in EQEmu are used to do many things, we have different files that are respo
 * Water maps are generated via [Awater](https://docs.eqemu.io/server/zones/customizing-zones/zone-utility-tools/#awater)
 
 **Download**
-* [https://github.com/Akkadius/EQEmuMaps/tree/master/tools](https://github.com/Akkadius/EQEmuMaps/tree/master/tools)
+* [https://github.com/EQEmu/maps/tree/master/tools](https://github.com/EQEmu/maps/tree/master/tools)
 
 **Source** 
 * [https://github.com/EQEmu/zone-utilities](https://github.com/EQEmu/zone-utilities)
