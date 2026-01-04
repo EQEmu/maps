@@ -12,13 +12,13 @@ Maps in EQEmu are used to do many things, we have different files that are respo
 * Base map files are responsible for a few core critical things
   * **Line of Sight (LOS)** eg: Can this spell be casted if there is a wall or object between me and the target?
   * **Calculating Best Z** The server is constantly doing Z calculations to keep NPC's on level plane, to prevent from dipping into the ground which was a much larger issue in the past
-* Maps are genereated via [Azone](https://docs.eqemu.io/server/zones/customizing-zones/zone-utility-tools/#azone)
+* Maps are genereated via [Azone](https://github.com/EQEmu/zone-utilities)
 
 ### Water Maps (.wtr)
 
 * Water maps are responsible for one if not obvious, determining whether or not a client is inside water. Server side we determine different combat logic and pathing logic when a mob and/or client is in the water
 * Water maps takes a point (x, y, z) and determines what type of region said point is marked as eg water, lava, normal
-* Water maps are generated via [Awater](https://docs.eqemu.io/server/zones/customizing-zones/zone-utility-tools/#awater)
+* Water maps are generated via [Awater](https://github.com/EQEmu/zone-utilities)
 
 **Download**
 * [https://github.com/EQEmu/maps/tree/master/tools](https://github.com/EQEmu/maps/tree/master/tools)
